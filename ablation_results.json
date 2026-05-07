@@ -1,0 +1,38 @@
+[
+  {
+    "condition": "Traj only (3)",
+    "n_features": 3,
+    "accuracy": 98.85,
+    "f1_weighted": 98.85,
+    "f1_safe": 99.71,
+    "f1_moderate": 98.42,
+    "f1_agg": 95.69
+  },
+  {
+    "condition": "Traj + Time (5)",
+    "n_features": 5,
+    "accuracy": 98.82,
+    "f1_weighted": 98.82,
+    "f1_safe": 99.69,
+    "f1_moderate": 98.39,
+    "f1_agg": 95.62
+  },
+  {
+    "condition": "Traj + Time + Weather (10)",
+    "n_features": 10,
+    "accuracy": 98.52,
+    "f1_weighted": 98.52,
+    "f1_safe": 99.6,
+    "f1_moderate": 97.97,
+    "f1_agg": 94.65
+  },
+  {
+    "condition": "All Features (13)",
+    "n_features": 13,
+    "accuracy": 98.32,
+    "f1_weighted": 98.32,
+    "f1_safe": 99.54,
+    "f1_moderate": 97.69,
+    "f1_agg": 93.92
+  }
+]
